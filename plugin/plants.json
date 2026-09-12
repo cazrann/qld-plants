@@ -1,0 +1,154 @@
+{
+  "plants": [
+    {
+      "name": "Bunya Pine",
+      "scientific_name": "Araucaria bidwillii",
+      "range": "South-east Queensland, especially the Bunya Mountains and Blackall Range.",
+      "edible_parts": "Seeds (bunya nuts).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/bunya-pine.png",
+      "taxonomy": {
+        "phylum": "Pinophyta",
+        "class": "Pinopsida",
+        "order": "Pinales",
+        "family": "Araucariaceae",
+        "genus": "Araucaria",
+        "species": "A. bidwillii"
+      }
+    },
+    {
+      "name": "Illawarra Plum",
+      "scientific_name": "Podocarpus elatus",
+      "range": "Subtropical rainforests of south-east Queensland and north-eastern New South Wales.",
+      "edible_parts": "Fleshy receptacle.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/illawarra-plum.png",
+      "taxonomy": {
+        "phylum": "Pinophyta",
+        "class": "Pinopsida",
+        "order": "Pinales",
+        "family": "Podocarpaceae",
+        "genus": "Podocarpus",
+        "species": "P. elatus"
+      }
+    },
+    {
+      "name": "Lemon Myrtle",
+      "scientific_name": "Backhousia citriodora",
+      "range": "Coastal rainforests of central and south-east Queensland.",
+      "edible_parts": "Leaves.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/lemon-myrtle.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Backhousia",
+        "species": "B. citriodora"
+      }
+    },
+    {
+      "name": "Macadamia",
+      "scientific_name": "Macadamia integrifolia",
+      "range": "South-east Queensland rainforests.",
+      "edible_parts": "Nuts (kernels).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/macadamia.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Proteales",
+        "family": "Proteaceae",
+        "genus": "Macadamia",
+        "species": "M. integrifolia"
+      }
+    },
+    {
+      "name": "Native Ginger",
+      "scientific_name": "Alpinia caerulea",
+      "range": "Eastern Queensland rainforests and moist forests.",
+      "edible_parts": "Young shoots, rhizomes, and ripe berries.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-ginger.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Liliopsida",
+        "order": "Zingiberales",
+        "family": "Zingiberaceae",
+        "genus": "Alpinia",
+        "species": "A. caerulea"
+      }
+    },
+    {
+      "name": "Blue Quandong",
+      "scientific_name": "Elaeocarpus grandis",
+      "range": "Rainforests of eastern and north-east Queensland.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/blue-quandong.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Oxalidales",
+        "family": "Elaeocarpaceae",
+        "genus": "Elaeocarpus",
+        "species": "E. grandis"
+      }
+    },
+    {
+      "name": "Peanut Tree",
+      "scientific_name": "Sterculia quadrifida",
+      "range": "Northern and eastern Queensland in monsoon forest, coastal thickets, and open woodland.",
+      "edible_parts": "Seeds.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/peanut-tree.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Malvales",
+        "family": "Malvaceae",
+        "genus": "Sterculia",
+        "species": "S. quadrifida"
+      }
+    },
+    {
+      "name": "Lemon Aspen",
+      "scientific_name": "Acronychia acidula",
+      "range": "Wet tropical rainforests from the Atherton Tableland to the Eungella Range in Queensland.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/lemon-aspen.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Sapindales",
+        "family": "Rutaceae",
+        "genus": "Acronychia",
+        "species": "A. acidula"
+      }
+    },
+    {
+      "name": "Cluster Fig",
+      "scientific_name": "Ficus racemosa",
+      "range": "Northern and eastern Queensland, especially along waterways and rainforest margins.",
+      "edible_parts": "Fruit (figs).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/cluster-fig.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Rosales",
+        "family": "Moraceae",
+        "genus": "Ficus",
+        "species": "F. racemosa"
+      }
+    },
+    {
+      "name": "Native Passionfruit",
+      "scientific_name": "Passiflora herbertiana",
+      "range": "Rainforests and vine thickets of south-east Queensland.",
+      "edible_parts": "Fruit pulp.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-passionfruit.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Malpighiales",
+        "family": "Passifloraceae",
+        "genus": "Passiflora",
+        "species": "P. herbertiana"
+      }
+    }
+  ]
+}

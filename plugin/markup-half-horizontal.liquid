@@ -1,0 +1,31 @@
+<style>
+  .qld-hh { padding: 4px 10px 0 10px; }
+  .qld-hh-rule { border: none; border-top: 2px solid #000; margin: 6px 0; }
+  .qld-hh-sci { font-style: italic; }
+  .qld-hh-label { text-transform: uppercase; font-weight: 700; letter-spacing: 1px; }
+</style>
+
+{% assign day_num = 'now' | date: '%j' | plus: 0 %}
+{% assign plant_count = plants.size %}
+{% assign plant_index = day_num | modulo: plant_count %}
+{% assign plant = plants[plant_index] %}
+
+<div class="view view--half_horizontal">
+  <div class="layout qld-hh">
+    <div class="columns">
+      <div class="column">
+        <span class="title">{{ plant.name }}</span>
+        <span class="description qld-hh-sci">{{ plant.scientific_name }}</span>
+        <hr class="qld-hh-rule" />
+        <span class="label qld-hh-label">Range</span>
+        <span class="value value--small">{{ plant.range }}</span>
+      </div>
+      <div class="column">
+        <span class="label qld-hh-label">Edible Parts</span>
+        <span class="value value--small">{{ plant.edible_parts }}</span>
+        <span class="label qld-hh-label">Family</span>
+        <span class="value value--small qld-hh-sci">{{ plant.taxonomy.family }}</span>
+      </div>
+    </div>
+  </div>
+</div>
