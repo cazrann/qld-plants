@@ -1,12 +1,12 @@
 # Queensland Native Plants — TRMNL Private Plugin
 
-Cycles through 35 QLD native plant cards automatically, switching to a new
+Cycles through 56 QLD native plant cards automatically, switching to a new
 plant every 6 hours (4 times a day). No server or hosting required —
 everything runs as a **Static** private plugin.
 
 ## What's in here
 
-- `plants.json` — all 35 plants (name, scientific name, range, edible parts,
+- `plants.json` — all 56 plants (name, scientific name, range, edible parts,
   taxonomy, illustration URL), verified for accuracy against known QLD
   native species.
 - `images/` — the line-art illustration cropped out of each card, hosted here
@@ -39,7 +39,7 @@ The template computes the current Unix epoch time (`'now' | date: '%s'`),
 divides it into 6-hour slots (21,600 seconds each), and takes that slot
 number modulo the number of plants — so the card changes 4 times a day (at
 each 6-hour boundary) and cycles through the whole list before repeating.
-The footer shows "Card X of 35" so you always know where you are in the
+The footer shows "Card X of 56" so you always know where you are in the
 rotation.
 
 Note: this only *computes* a new card every 6 hours — your TRMNL device still

@@ -524,6 +524,321 @@
         "genus": "Syzygium",
         "species": "S. wilsonii"
       }
+    },
+    {
+      "name": "Bush Banana",
+      "scientific_name": "Marsdenia viridiflora",
+      "range": "Northern and eastern Queensland, in monsoon forest and open woodland.",
+      "edible_parts": "Immature fruit pods and tubers.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/bush-banana.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Gentianales",
+        "family": "Apocynaceae",
+        "genus": "Marsdenia",
+        "species": "M. viridiflora"
+      }
+    },
+    {
+      "name": "Native Rosella",
+      "scientific_name": "Hibiscus heterophyllus",
+      "range": "Eastern Queensland and north-eastern New South Wales.",
+      "edible_parts": "Young leaves, flowers and roots.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-rosella.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Malvales",
+        "family": "Malvaceae",
+        "genus": "Hibiscus",
+        "species": "H. heterophyllus"
+      }
+    },
+    {
+      "name": "Blue Flax Lily",
+      "scientific_name": "Dianella caerulea",
+      "range": "Eastern Queensland and much of eastern Australia.",
+      "edible_parts": "Ripe berries, in moderation.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/blue-flax-lily.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Asparagales",
+        "family": "Asphodelaceae",
+        "genus": "Dianella",
+        "species": "D. caerulea"
+      }
+    },
+    {
+      "name": "River Mint",
+      "scientific_name": "Mentha australis",
+      "range": "Queensland and much of Australia, along creeks and wetland margins.",
+      "edible_parts": "Leaves.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/river-mint.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Lamiales",
+        "family": "Lamiaceae",
+        "genus": "Mentha",
+        "species": "M. australis"
+      }
+    },
+    {
+      "name": "Scrambling Lily",
+      "scientific_name": "Geitonoplesium cymosum",
+      "range": "Coastal Queensland and eastern Australia rainforests and forest margins.",
+      "edible_parts": "Young shoots.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/scrambling-lily.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Asparagales",
+        "family": "Asparagaceae",
+        "genus": "Geitonoplesium",
+        "species": "G. cymosum"
+      }
+    },
+    {
+      "name": "Wombat Berry",
+      "scientific_name": "Eustrephus latifolius",
+      "range": "Coastal Queensland and eastern Australia rainforests and open forest.",
+      "edible_parts": "Tuber and ripe berries.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/wombat-berry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Asparagales",
+        "family": "Asparagaceae",
+        "genus": "Eustrephus",
+        "species": "E. latifolius"
+      }
+    },
+    {
+      "name": "Kurrajong",
+      "scientific_name": "Brachychiton populneus",
+      "range": "Inland and south-east Queensland dry woodland, and eastern Australia.",
+      "edible_parts": "Seeds; roots of young plants.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/kurrajong.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Malvales",
+        "family": "Malvaceae",
+        "genus": "Brachychiton",
+        "species": "B. populneus"
+      }
+    },
+    {
+      "name": "Queensland Bottle Tree",
+      "scientific_name": "Brachychiton rupestris",
+      "range": "Central and southern Queensland, especially the Brigalow Belt.",
+      "edible_parts": "Seeds; roots of young plants.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/queensland-bottle-tree.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Malvales",
+        "family": "Malvaceae",
+        "genus": "Brachychiton",
+        "species": "B. rupestris"
+      }
+    },
+    {
+      "name": "Screw Pine",
+      "scientific_name": "Pandanus spiralis",
+      "range": "Northern Queensland, also the Northern Territory and Western Australia.",
+      "edible_parts": "Fruit bases and kernels.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/screw-pine.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Pandanales",
+        "family": "Pandanaceae",
+        "genus": "Pandanus",
+        "species": "P. spiralis"
+      }
+    },
+    {
+      "name": "Old Man Saltbush",
+      "scientific_name": "Atriplex nummularia",
+      "range": "Inland Queensland and arid mainland Australia.",
+      "edible_parts": "Leaves and seeds.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/old-man-saltbush.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Caryophyllales",
+        "family": "Amaranthaceae",
+        "genus": "Atriplex",
+        "species": "A. nummularia"
+      }
+    },
+    {
+      "name": "Burdekin Plum",
+      "scientific_name": "Pleiogynium timoriense",
+      "range": "Northern and eastern Queensland, especially coastal and subcoastal rainforest and monsoon forest; also across northern Australia.",
+      "edible_parts": "Ripe fruit flesh.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/burdekin-plum.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Sapindales",
+        "family": "Anacardiaceae",
+        "genus": "Pleiogynium",
+        "species": "P. timoriense"
+      }
+    },
+    {
+      "name": "Midyim Berry",
+      "scientific_name": "Austromyrtus dulcis",
+      "range": "Coastal and subcoastal eastern Queensland and New South Wales, especially dunes, heath and open forest.",
+      "edible_parts": "Ripe berries.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/midyim-berry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Austromyrtus",
+        "species": "A. dulcis"
+      }
+    },
+    {
+      "name": "Native Tamarind",
+      "scientific_name": "Diploglottis australis",
+      "range": "Eastern Queensland rainforests and moist forests, extending south into New South Wales.",
+      "edible_parts": "Fruit aril.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-tamarind.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Sapindales",
+        "family": "Sapindaceae",
+        "genus": "Diploglottis",
+        "species": "D. australis"
+      }
+    },
+    {
+      "name": "Warrigal Greens",
+      "scientific_name": "Tetragonia tetragonioides",
+      "range": "Coastal Queensland and much of Australia, especially beaches, dunes and saline or disturbed ground.",
+      "edible_parts": "Young leaves and shoots (best cooked).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/warrigal-greens.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Caryophyllales",
+        "family": "Aizoaceae",
+        "genus": "Tetragonia",
+        "species": "T. tetragonioides"
+      }
+    },
+    {
+      "name": "Cabbage Tree Palm",
+      "scientific_name": "Livistona australis",
+      "range": "Eastern Queensland and eastern Australia, especially moist forest, gullies and coastal ranges.",
+      "edible_parts": "Apical heart (\"cabbage\"), harvesting kills the palm.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/cabbage-tree-palm.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Liliopsida",
+        "order": "Arecales",
+        "family": "Arecaceae",
+        "genus": "Livistona",
+        "species": "L. australis"
+      }
+    },
+    {
+      "name": "Apple Berry",
+      "scientific_name": "Billardiera scandens",
+      "range": "South-eastern Queensland and eastern Australia, in forest, woodland and heathy habitats.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/apple-berry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Apiales",
+        "family": "Pittosporaceae",
+        "genus": "Billardiera",
+        "species": "B. scandens"
+      }
+    },
+    {
+      "name": "Native Violet",
+      "scientific_name": "Viola hederacea",
+      "range": "Eastern and south-eastern Queensland and eastern Australia, especially moist shaded ground.",
+      "edible_parts": "Leaves and flowers.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-violet.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Malpighiales",
+        "family": "Violaceae",
+        "genus": "Viola",
+        "species": "V. hederacea"
+      }
+    },
+    {
+      "name": "Native Raspberry",
+      "scientific_name": "Rubus parvifolius",
+      "range": "Eastern Queensland and mainland eastern Australia, in forest margins and disturbed ground.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-raspberry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Rosales",
+        "family": "Rosaceae",
+        "genus": "Rubus",
+        "species": "R. parvifolius"
+      }
+    },
+    {
+      "name": "Small-leaved Fig",
+      "scientific_name": "Ficus opposita",
+      "range": "Queensland and northern to eastern Australia, in woodland, monsoon forest and rocky habitats.",
+      "edible_parts": "Ripe figs.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/small-leaved-fig.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Rosales",
+        "family": "Moraceae",
+        "genus": "Ficus",
+        "species": "F. opposita"
+      }
+    },
+    {
+      "name": "Emu Apple",
+      "scientific_name": "Owenia acidula",
+      "range": "Inland and northern Queensland and much of mainland Australia, in woodland and dry forest.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/emu-apple.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Sapindales",
+        "family": "Meliaceae",
+        "genus": "Owenia",
+        "species": "O. acidula"
+      }
+    },
+    {
+      "name": "Davidson's Plum",
+      "scientific_name": "Davidsonia pruriens",
+      "range": "Wet tropical rainforests of north Queensland.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/davidsons-plum.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Oxalidales",
+        "family": "Cunoniaceae",
+        "genus": "Davidsonia",
+        "species": "D. pruriens"
+      }
     }
   ]
 }
