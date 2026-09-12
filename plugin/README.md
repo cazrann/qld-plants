@@ -1,13 +1,14 @@
 # Queensland Native Plants — TRMNL Private Plugin
 
-Cycles through the 10 QLD native plant cards automatically, one per day, using
-date-based rotation. No server or hosting required — everything runs as a
-**Static** private plugin.
+Cycles through 35 QLD native plant cards automatically, switching to a new
+plant every 6 hours (4 times a day). No server or hosting required —
+everything runs as a **Static** private plugin.
 
 ## What's in here
 
-- `plants.json` — all 10 plants (name, scientific name, range, edible parts,
-  taxonomy, illustration URL), taken from your reference cards.
+- `plants.json` — all 35 plants (name, scientific name, range, edible parts,
+  taxonomy, illustration URL), verified for accuracy against known QLD
+  native species.
 - `images/` — the line-art illustration cropped out of each card, hosted here
   so TRMNL's cloud servers can load them.
 - `markup-full.liquid` — the full-screen (800x480) layout: illustration on
@@ -34,13 +35,17 @@ That's it — no webhook, no polling URL, nothing to host.
 
 ## How the rotation works
 
-The template computes the current day-of-year (`'now' | date: '%j'`) and
-takes it modulo the number of plants (10), so it picks a different card each
-calendar day and cycles back to the start after 10 days. The footer shows
-"Card X of 10" so you always know where you are in the rotation.
+The template computes the current Unix epoch time (`'now' | date: '%s'`),
+divides it into 6-hour slots (21,600 seconds each), and takes that slot
+number modulo the number of plants — so the card changes 4 times a day (at
+each 6-hour boundary) and cycles through the whole list before repeating.
+The footer shows "Card X of 35" so you always know where you are in the
+rotation.
 
-If you'd rather it change every device refresh instead of once a day, tell me
-and I'll swap the rotation key to something else.
+Note: this only *computes* a new card every 6 hours — your TRMNL device still
+needs to actually refresh within that window to pick it up. If your device's
+refresh interval is set to longer than 6 hours, lower it (in the device's
+schedule settings) or you'll see fewer than 4 changes a day.
 
 ## About the illustrations
 

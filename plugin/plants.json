@@ -149,6 +149,381 @@
         "genus": "Passiflora",
         "species": "P. herbertiana"
       }
+    },
+    {
+      "name": "Atherton Raspberry",
+      "scientific_name": "Rubus probus",
+      "range": "Wet Tropics rainforests of far north Queensland, including the Atherton Tablelands.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/atherton-raspberry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Rosales",
+        "family": "Rosaceae",
+        "genus": "Rubus",
+        "species": "R. probus"
+      }
+    },
+    {
+      "name": "Black Plum",
+      "scientific_name": "Diospyros australis",
+      "range": "Rainforests of eastern Queensland and north-eastern New South Wales.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/black-plum.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Ericales",
+        "family": "Ebenaceae",
+        "genus": "Diospyros",
+        "species": "D. australis"
+      }
+    },
+    {
+      "name": "Bolwarra",
+      "scientific_name": "Eupomatia laurina",
+      "range": "Rainforests of eastern Australia, from Queensland to Victoria.",
+      "edible_parts": "Ripe, aromatic fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/bolwarra.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Magnoliales",
+        "family": "Eupomatiaceae",
+        "genus": "Eupomatia",
+        "species": "E. laurina"
+      }
+    },
+    {
+      "name": "Brush Pepperbush",
+      "scientific_name": "Tasmannia insipida",
+      "range": "Cool, wet rainforests of eastern Queensland and New South Wales.",
+      "edible_parts": "Berries and leaves, used as a native pepper substitute.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/brush-pepperbush.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Canellales",
+        "family": "Winteraceae",
+        "genus": "Tasmannia",
+        "species": "T. insipida"
+      }
+    },
+    {
+      "name": "Cocky Apple",
+      "scientific_name": "Planchonia careya",
+      "range": "Woodlands of northern Australia, including Queensland, the Northern Territory and Western Australia.",
+      "edible_parts": "Ripe fruit pulp.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/cocky-apple.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Ericales",
+        "family": "Lecythidaceae",
+        "genus": "Planchonia",
+        "species": "P. careya"
+      }
+    },
+    {
+      "name": "Green Plum",
+      "scientific_name": "Buchanania obovata",
+      "range": "Woodlands of northern Australia, including Cape York, Queensland.",
+      "edible_parts": "Fruit and seed kernel.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/green-plum.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Sapindales",
+        "family": "Anacardiaceae",
+        "genus": "Buchanania",
+        "species": "B. obovata"
+      }
+    },
+    {
+      "name": "Native Cherry",
+      "scientific_name": "Exocarpos cupressiformis",
+      "range": "Eastern and southern Australia, extending into southern Queensland.",
+      "edible_parts": "Swollen fruit stalk (pedicel), not the seed.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-cherry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Santalales",
+        "family": "Santalaceae",
+        "genus": "Exocarpos",
+        "species": "E. cupressiformis"
+      }
+    },
+    {
+      "name": "Native Mulberry",
+      "scientific_name": "Pipturus argenteus",
+      "range": "Coastal eastern Queensland and New South Wales.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/native-mulberry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Rosales",
+        "family": "Urticaceae",
+        "genus": "Pipturus",
+        "species": "P. argenteus"
+      }
+    },
+    {
+      "name": "Pigface",
+      "scientific_name": "Carpobrotus glaucescens",
+      "range": "Coastal eastern Australia, including Queensland.",
+      "edible_parts": "Fruit and fleshy leaves.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/pigface.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Caryophyllales",
+        "family": "Aizoaceae",
+        "genus": "Carpobrotus",
+        "species": "C. glaucescens"
+      }
+    },
+    {
+      "name": "Sea Purslane",
+      "scientific_name": "Sesuvium portulacastrum",
+      "range": "Tropical and subtropical coastal habitats of Queensland.",
+      "edible_parts": "Young leaves and shoots.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/sea-purslane.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Caryophyllales",
+        "family": "Aizoaceae",
+        "genus": "Sesuvium",
+        "species": "S. portulacastrum"
+      }
+    },
+    {
+      "name": "Atherton Oak",
+      "scientific_name": "Athertonia diversifolia",
+      "range": "Rainforests of the Atherton Tablelands, far north Queensland (endemic).",
+      "edible_parts": "Seeds (nuts), after preparation.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/atherton-oak.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Proteales",
+        "family": "Proteaceae",
+        "genus": "Athertonia",
+        "species": "A. diversifolia"
+      }
+    },
+    {
+      "name": "Cedar Bay Cherry",
+      "scientific_name": "Eugenia reinwardtiana",
+      "range": "Coastal and littoral rainforests of northern Queensland.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/cedar-bay-cherry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Eugenia",
+        "species": "E. reinwardtiana"
+      }
+    },
+    {
+      "name": "Lilly Pilly",
+      "scientific_name": "Syzygium australe",
+      "range": "Coastal rainforests of eastern Queensland and northern New South Wales.",
+      "edible_parts": "Fruit (berries).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/lilly-pilly.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Syzygium",
+        "species": "S. australe"
+      }
+    },
+    {
+      "name": "Riberry",
+      "scientific_name": "Syzygium luehmannii",
+      "range": "Coastal rainforests of south-east Queensland and north-eastern New South Wales.",
+      "edible_parts": "Fruit (berries).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/riberry.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Syzygium",
+        "species": "S. luehmannii"
+      }
+    },
+    {
+      "name": "Broad-leaved Paperbark",
+      "scientific_name": "Melaleuca quinquenervia",
+      "range": "Coastal and near-coastal Queensland from the south-east to Cape York, including estuaries, wetlands and mangrove margins.",
+      "edible_parts": "Flower nectar; young leaves occasionally used as a tea.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/broad-leaved-paperbark.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Melaleuca",
+        "species": "M. quinquenervia"
+      }
+    },
+    {
+      "name": "Kakadu Plum",
+      "scientific_name": "Terminalia ferdinandiana",
+      "range": "Tropical northern Queensland woodlands and monsoon forest; also in the Northern Territory and Western Australia.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/kakadu-plum.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Combretaceae",
+        "genus": "Terminalia",
+        "species": "T. ferdinandiana"
+      }
+    },
+    {
+      "name": "Prickly Wattle",
+      "scientific_name": "Acacia victoriae",
+      "range": "Inland and western Queensland, extending across arid and semi-arid mainland Australia.",
+      "edible_parts": "Seeds.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/prickly-wattle.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Fabales",
+        "family": "Fabaceae",
+        "genus": "Acacia",
+        "species": "A. victoriae"
+      }
+    },
+    {
+      "name": "Round Lime",
+      "scientific_name": "Citrus australis",
+      "range": "Subtropical rainforests of south-east Queensland and the border ranges into north-eastern New South Wales.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/round-lime.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Sapindales",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "species": "C. australis"
+      }
+    },
+    {
+      "name": "Wild Orange",
+      "scientific_name": "Capparis mitchellii",
+      "range": "Inland Queensland dry woodland and open forest.",
+      "edible_parts": "Ripe fruit pulp.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/wild-orange.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Brassicales",
+        "family": "Capparaceae",
+        "genus": "Capparis",
+        "species": "C. mitchellii"
+      }
+    },
+    {
+      "name": "Bush Peach",
+      "scientific_name": "Persoonia falcata",
+      "range": "Northern Queensland woodlands and open forest; also in the Northern Territory and Western Australia.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/bush-peach.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Proteales",
+        "family": "Proteaceae",
+        "genus": "Persoonia",
+        "species": "P. falcata"
+      }
+    },
+    {
+      "name": "Black Apple",
+      "scientific_name": "Planchonella australis",
+      "range": "Rainforests of eastern Queensland and north-eastern New South Wales.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/black-apple.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Ericales",
+        "family": "Sapotaceae",
+        "genus": "Planchonella",
+        "species": "P. australis"
+      }
+    },
+    {
+      "name": "Sandpaper Fig",
+      "scientific_name": "Ficus coronata",
+      "range": "Creek margins, rainforest edges and moist forests of eastern Queensland and New South Wales.",
+      "edible_parts": "Ripe fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/sandpaper-fig.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Rosales",
+        "family": "Moraceae",
+        "genus": "Ficus",
+        "species": "F. coronata"
+      }
+    },
+    {
+      "name": "Black Bean",
+      "scientific_name": "Castanospermum australe",
+      "range": "Coastal Queensland and north-eastern New South Wales rainforests and riverine forest.",
+      "edible_parts": "Seeds, only after extensive traditional leaching and cooking (raw seeds are toxic).",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/black-bean.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Fabales",
+        "family": "Fabaceae",
+        "genus": "Castanospermum",
+        "species": "C. australe"
+      }
+    },
+    {
+      "name": "Fibrous Satinash",
+      "scientific_name": "Syzygium fibrosum",
+      "range": "Tropical north Queensland rainforests, including monsoon and littoral forest.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/fibrous-satinash.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Syzygium",
+        "species": "S. fibrosum"
+      }
+    },
+    {
+      "name": "Powderpuff Lilly Pilly",
+      "scientific_name": "Syzygium wilsonii",
+      "range": "Rainforests of north Queensland, from lowland to upland habitats.",
+      "edible_parts": "Fruit.",
+      "illustration_url": "https://raw.githubusercontent.com/cazrann/qld-plants/main/plugin/images/powderpuff-lilly-pilly.png",
+      "taxonomy": {
+        "phylum": "Tracheophyta",
+        "class": "Magnoliopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Syzygium",
+        "species": "S. wilsonii"
+      }
     }
   ]
 }

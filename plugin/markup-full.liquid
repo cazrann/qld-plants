@@ -1,23 +1,27 @@
 <style>
-  .qld-card { padding: 8px 12px; height: 100%; box-sizing: border-box; }
-  .qld-grid { display: flex; height: 100%; gap: 18px; }
-  .qld-illustration { flex: 0 0 300px; display: flex; align-items: center; justify-content: center; border-right: 2px solid #000; padding-right: 18px; }
-  .qld-illustration img { max-width: 100%; max-height: 420px; width: auto; height: auto; object-fit: contain; }
+  .qld-card { padding: 8px 12px; height: 100%; box-sizing: border-box; overflow: hidden; }
+  .qld-grid { display: flex; height: 100%; gap: 16px; }
+  .qld-illustration { flex: 0 0 260px; display: flex; align-items: center; justify-content: center; border-right: 2px solid #000; padding-right: 16px; }
+  .qld-illustration img { max-width: 100%; max-height: 400px; width: auto; height: auto; object-fit: contain; }
   .qld-info { flex: 1; display: flex; flex-direction: column; min-width: 0; }
-  .qld-rule { border: none; border-top: 2px solid #000; margin: 8px 0; }
-  .qld-rule--thin { border: none; border-top: 1px solid #000; margin: 6px 0; }
+  .qld-rule { border: none; border-top: 2px solid #000; margin: 5px 0; }
+  .qld-rule--thin { border: none; border-top: 1px solid #000; margin: 4px 0; }
   .qld-sci { font-style: italic; }
-  .qld-section-label { text-transform: uppercase; font-weight: 700; letter-spacing: 1px; }
-  .qld-taxo-table { width: 100%; border-collapse: collapse; }
-  .qld-taxo-table td { padding: 1px 0; vertical-align: top; }
-  .qld-taxo-table td:first-child { font-weight: 700; width: 100px; }
-  .qld-footer { display: flex; justify-content: space-between; align-items: baseline; margin-top: auto; }
+  .qld-name { font-size: 26px; font-weight: 700; line-height: 1.15; }
+  .qld-sciname { font-size: 17px; line-height: 1.2; }
+  .qld-section-label { text-transform: uppercase; font-weight: 700; letter-spacing: 1px; font-size: 12px; display: block; }
+  .qld-text { font-size: 15px; line-height: 1.25; display: block; }
+  .qld-taxo-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .qld-taxo-table td { padding: 0; line-height: 1.35; vertical-align: top; }
+  .qld-taxo-table td:first-child { font-weight: 700; width: 85px; }
+  .qld-footer { display: flex; justify-content: space-between; align-items: baseline; margin-top: auto; font-size: 12px; }
   .qld-badge { font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
 </style>
 
-{% assign day_num = 'now' | date: '%j' | plus: 0 %}
+{% assign epoch_seconds = 'now' | date: '%s' | plus: 0 %}
+{% assign slot_index = epoch_seconds | divided_by: 21600 %}
 {% assign plant_count = plants.size %}
-{% assign plant_index = day_num | modulo: plant_count %}
+{% assign plant_index = slot_index | modulo: plant_count %}
 {% assign plant = plants[plant_index] %}
 
 <div class="view view--full">
@@ -29,22 +33,22 @@
       </div>
 
       <div class="qld-info">
-        <span class="title title--large">{{ plant.name }}</span>
-        <span class="description text--large qld-sci">{{ plant.scientific_name }}</span>
+        <span class="qld-name">{{ plant.name }}</span>
+        <span class="qld-sciname qld-sci">{{ plant.scientific_name }}</span>
 
         <hr class="qld-rule" />
 
-        <span class="label qld-section-label">Range</span>
-        <span class="value value--medium">{{ plant.range }}</span>
+        <span class="qld-section-label">Range</span>
+        <span class="qld-text">{{ plant.range }}</span>
 
         <hr class="qld-rule--thin" />
 
-        <span class="label qld-section-label">Edible Parts</span>
-        <span class="value value--medium">{{ plant.edible_parts }}</span>
+        <span class="qld-section-label">Edible Parts</span>
+        <span class="qld-text">{{ plant.edible_parts }}</span>
 
         <hr class="qld-rule--thin" />
 
-        <span class="label qld-section-label">Taxonomy</span>
+        <span class="qld-section-label">Taxonomy</span>
         <table class="qld-taxo-table">
           <tr><td>Phylum</td><td>{{ plant.taxonomy.phylum }}</td></tr>
           <tr><td>Class</td><td>{{ plant.taxonomy.class }}</td></tr>
@@ -57,7 +61,7 @@
         <hr class="qld-rule" />
 
         <div class="qld-footer">
-          <span class="label">Card {{ plant_index | plus: 1 }} of {{ plant_count }}</span>
+          <span>Card {{ plant_index | plus: 1 }} of {{ plant_count }}</span>
           <span class="qld-badge">Queensland Native</span>
         </div>
       </div>

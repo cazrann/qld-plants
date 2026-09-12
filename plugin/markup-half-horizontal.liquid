@@ -5,9 +5,10 @@
   .qld-hh-label { text-transform: uppercase; font-weight: 700; letter-spacing: 1px; }
 </style>
 
-{% assign day_num = 'now' | date: '%j' | plus: 0 %}
+{% assign epoch_seconds = 'now' | date: '%s' | plus: 0 %}
+{% assign slot_index = epoch_seconds | divided_by: 21600 %}
 {% assign plant_count = plants.size %}
-{% assign plant_index = day_num | modulo: plant_count %}
+{% assign plant_index = slot_index | modulo: plant_count %}
 {% assign plant = plants[plant_index] %}
 
 <div class="view view--half_horizontal">
