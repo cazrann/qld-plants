@@ -16,6 +16,8 @@
   .qld-taxo-table td:first-child { font-weight: 700; width: 85px; }
   .qld-footer { display: flex; justify-content: space-between; align-items: baseline; margin-top: auto; font-size: 12px; }
   .qld-badge { font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+  .qld-full-card { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+  .qld-full-card img { width: 100%; height: 100%; object-fit: contain; }
 </style>
 
 {% assign epoch_seconds = 'now' | date: '%s' | plus: 0 %}
@@ -25,6 +27,14 @@
 {% assign plant = plants[plant_index] %}
 
 <div class="view view--full">
+  {% if plant.full_card_url %}
+
+  <div class="qld-full-card">
+    <img src="{{ plant.full_card_url }}" />
+  </div>
+
+  {% else %}
+
   <div class="layout qld-card">
     <div class="qld-grid">
 
@@ -68,4 +78,6 @@
 
     </div>
   </div>
+
+  {% endif %}
 </div>

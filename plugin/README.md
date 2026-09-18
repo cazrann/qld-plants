@@ -1,20 +1,34 @@
 # Queensland Native Plants — TRMNL Private Plugin
 
-Cycles through 56 QLD native plant cards automatically, switching to a new
+Cycles through 116 QLD native plant cards automatically, switching to a new
 plant every 6 hours (4 times a day). No server or hosting required —
 everything runs as a **Static** private plugin.
 
+There are two kinds of entries in `plants.json`:
+
+- **56 "reconstructed" cards** — structured data (name, range, edible parts,
+  taxonomy) plus a cropped illustration in `images/`; the Liquid template
+  lays out the card at render time.
+- **60 "pre-rendered" cards** — complete, already-composited 800x480
+  monochrome PNGs in `full-cards/`, produced by the separate, more rigorous
+  `native plant cards ChatGPT/` pipeline (real Bailey/botanical-book
+  illustrations with verified page/figure citations baked into the image).
+  These entries just carry a `full_card_url`; the template detects that field
+  and displays the image directly, full-bleed, instead of reconstructing a
+  layout.
+
 ## What's in here
 
-- `plants.json` — all 56 plants (name, scientific name, range, edible parts,
-  taxonomy, illustration URL), verified for accuracy against known QLD
-  native species.
-- `images/` — the line-art illustration cropped out of each card, hosted here
-  so TRMNL's cloud servers can load them.
-- `markup-full.liquid` — the full-screen (800x480) layout: illustration on
-  the left, details on the right, mirroring your original card design.
-- `markup-half-horizontal.liquid` — an optional compact, text-only layout if
-  you ever want this plugin sharing the screen in a Mashup.
+- `plants.json` — all 116 plants. The 56 older entries have name, scientific
+  name, range, edible parts, taxonomy and an `illustration_url`; the 60
+  newer entries have name, scientific name and a `full_card_url`.
+- `images/` — cropped illustrations for the 56 reconstructed cards.
+- `full-cards/` — the 60 complete pre-rendered card PNGs.
+- `markup-full.liquid` — the full-screen (800x480) layout. Branches on
+  whether the current plant has a `full_card_url`.
+- `markup-half-horizontal.liquid` — an optional compact layout if you ever
+  want this plugin sharing the screen in a Mashup (also branches the same
+  way, though the pre-rendered cards will be shrunk to fit).
 
 ## Setup (5 minutes)
 
@@ -39,8 +53,9 @@ The template computes the current Unix epoch time (`'now' | date: '%s'`),
 divides it into 6-hour slots (21,600 seconds each), and takes that slot
 number modulo the number of plants — so the card changes 4 times a day (at
 each 6-hour boundary) and cycles through the whole list before repeating.
-The footer shows "Card X of 56" so you always know where you are in the
-rotation.
+The footer (on the reconstructed-style cards) shows "Card X of 116" so you
+always know where you are in the rotation; the pre-rendered cards already
+have their own citation baked into the image instead.
 
 Note: this only *computes* a new card every 6 hours — your TRMNL device still
 needs to actually refresh within that window to pick it up. If your device's

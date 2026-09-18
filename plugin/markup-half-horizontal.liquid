@@ -3,6 +3,7 @@
   .qld-hh-rule { border: none; border-top: 2px solid #000; margin: 6px 0; }
   .qld-hh-sci { font-style: italic; }
   .qld-hh-label { text-transform: uppercase; font-weight: 700; letter-spacing: 1px; }
+  .qld-hh-full img { width: 100%; height: 100%; object-fit: contain; }
 </style>
 
 {% assign epoch_seconds = 'now' | date: '%s' | plus: 0 %}
@@ -12,6 +13,14 @@
 {% assign plant = plants[plant_index] %}
 
 <div class="view view--half_horizontal">
+  {% if plant.full_card_url %}
+
+  <div class="qld-hh-full">
+    <img src="{{ plant.full_card_url }}" />
+  </div>
+
+  {% else %}
+
   <div class="layout qld-hh">
     <div class="columns">
       <div class="column">
@@ -29,4 +38,6 @@
       </div>
     </div>
   </div>
+
+  {% endif %}
 </div>
